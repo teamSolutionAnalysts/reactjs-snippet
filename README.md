@@ -1,17 +1,18 @@
 #  Overview
 
-The primary objective is to design and develop a system which will allow the user to buy any plan or product of company.
+This is sample code for ReactJS, This sample code use NextJs framework to develop fronend application using React, Also this code have test cases.
 
 # Environment Setup steps
 
-List environment and steps to configurations goes here. 
+Code having configuration for different enviroment to create build and deploy it for specific setup
 Dev
 Stage
 Production
 
 # Integrations
 
-The third-party framework installation and integration setup goes here.
+The third-party framework installation using node (npm) packages,
+Use `npm install` to install dependencies of other modules
 
 # Prerequisite
 
@@ -19,7 +20,6 @@ List of software which must need to run the project goes here.
 
 # Build & Deploy
 
-The steps to build & Deploy the project goes here.
 Run `npm build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 # Development server
