@@ -1,0 +1,16 @@
+.wsInput {
+    position: relative;
+    .antInput {
+        border: 1px solid #7F7F7F !important;
+        background-color: transparent;
+    }
+
+    .antFillInput {
+        border: 1px solid #7F7F7F;
+        background-color: transparent; 
+        &:focus{
+            border: 1px solid #7F7F7F !important;
+            background-color: transparent !important;
+        }
+    }
+}

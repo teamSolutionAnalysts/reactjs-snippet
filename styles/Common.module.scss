@@ -1,0 +1,166 @@
+.dFlex {
+    display: flex;
+}
+
+.exactCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justifyContentCenter {
+    justify-content: center;
+}
+
+.justifyContentStart {
+    justify-content: flex-start;
+}
+
+.justifyContentEnd {
+    justify-content: flex-end;
+}
+
+.justifyContentBetween {
+    justify-content: space-between;
+}
+
+.justifyContentAround {
+    justify-content: space-around;
+}
+
+.justifyContentEvenly {
+    justify-content: space-evenly;
+}
+
+.alignItemsCenter {
+    align-items: center;
+}
+
+.alignItemsStart {
+    align-items: flex-start;
+}
+
+.alignItemsEnd {
+    align-items: flex-end;
+}
+
+.alignItemsBaseline {
+    align-items: baseline;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+.textAlignLeft {
+    text-align: left;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.flexRow {
+    flex-direction: row;
+}
+
+.flexRowReverse {
+    flex-direction: row-reverse;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.flexColumnReverse {
+    flex-direction: column-reverse;
+}
+
+.positionRelative {
+    position: relative;
+}
+
+.positionAbsolute {
+    position: absolute;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.dNone {
+    display: none !important;
+}
+
+.textUppercase {
+    text-transform: uppercase;
+}
+
+// margin
+.mAuto {
+    margin: auto;
+}
+
+.mZero {
+    margin: 0;
+}
+
+.mRemPoint25 {
+    margin: 0.25rem;
+}
+
+.mRemHalf {
+    margin: 0.5rem;
+}
+
+.mRem1 {
+    margin: 1rem;
+}
+
+.mRem1point5 {
+    margin: 1.5rem;
+}
+
+.mRem2 {
+    margin: 2rem;
+}
+
+.mRem6 {
+    margin: 3rem;
+}
+
+.bootstrapContainer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .bootstrapContainer {
+        width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bootstrapContainer {
+        width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bootstrapContainer {
+        width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bootstrapContainer {
+        width: 1140px;
+    }
+}

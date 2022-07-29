@@ -1,0 +1,397 @@
+@import "../../../public/static/css/variable.scss";
+
+.yellow-btn {
+    color: $black;
+    background-color: $nav-bg;
+    box-shadow: 0px 0px 10px #00000033;
+}
+
+.yellow-btn.disable {
+    background-color: $accordion-header-bg;
+    color: $form-placeholder-color;
+}
+
+.yellow-btn:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.form-section {
+    margin-bottom: 150px;
+}
+
+.form-section ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+.form-section ul li {
+    list-style: none;
+}
+
+.form-section label {
+    color: black;
+    font-size: $font-size-16;
+    font-weight: 700;
+    margin-bottom: 0;
+    max-width: 285px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+@media (max-width: 1440px) and (min-width: 1200px) {
+    .form-section label {
+        width: 75%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .form-section label {
+        width: 50%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-section label {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-section label {
+        font-size: $font-size-20;
+    }
+}
+
+.form-section .form-control {
+    color: $black;
+    font-size: $font-size-14;
+    background-color: #fff;
+    // box-shadow: 0px 0px 10px #00000033;
+    border: 1px solid #7f7f7f;
+    border-radius: 30px;
+    padding: 10px 25px;
+    height: 40px;
+    max-width: 510px;
+    width: 100%;
+    @media (max-width:1024px){
+        max-width: 100%;
+    }
+}
+
+.form-section .form-control::placeholder {
+    color: #b7baba;
+    font-style: italic;
+}
+
+.form-section .form-control:focus {
+    outline: none;
+}
+
+.form-section .form-control.custom-drop {
+    -webkit-appearance: none;
+    background-image: url("../../../public/static/images/yellow-drop.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px);
+    padding-right: 45px;
+    background-size: 24px;
+    border: 1px solid #7f7f7f;
+    // background-color: #E5E5E5;
+}
+
+.custom-btn {
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: $font-size-20;
+    font-weight: $Bold;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    max-width: 225px;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .custom-btn {
+        font-size: $font-size-18;
+    }
+}
+
+.custom-btn:focus {
+    outline: none;
+}
+
+.first-section {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .first-section {
+        margin-bottom: 30px;
+    }
+}
+
+.first-section::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 6px;
+    background-color: $nav-bg;
+    height: 100%;
+}
+
+.first-section ul li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    position: relative;
+    > label{
+        margin-top: 10px;
+    }
+}
+
+.first-section ul .timerContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    // flex-direction: column;
+    max-width: 510px;
+    width: 100%;
+    .timerOtpContainer {
+        display: flex;
+        .resentText {
+            margin-right: 5px;
+        }
+    }
+    .otpSuccessful {
+        color: #53bb46;
+        font-size: 1rem;
+        font-style: italic;
+    }
+    .invalidOtpTxt {
+        color: #f52e2e;
+        font-size: 1rem;
+        font-style: italic;
+    }
+    @media (max-width:1024px){
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .first-section ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.first-section ul li .btn-wraper,
+.second-section ul li .btn-wraper {
+    position: relative;
+    max-width: 510px;
+    width: 100%;
+    @media (max-width:1024px){
+        max-width: 100%;
+    }
+}
+
+.first-section ul li .btn-wraper button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $nav-bg;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border: none;
+    height: 40px;
+    padding: 10px 15px;
+    font-weight: 700;
+    color: $black;
+    font-size: $font-size-14;
+}
+
+.first-section ul li .btn-wraper button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border: none;
+    height: 40px;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: $font-size-14;
+}
+
+.second-section {
+    position: relative;
+    margin-bottom: 30px;
+    height: 100%;
+    @media (max-width: 991px) {
+        height: auto;
+    }
+}
+
+.second-section::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 6px;
+    background-color: #a3a3a3;
+    height: 84%;
+    // min-height: 160px;
+    @media (width: 1024px) {
+        height: 100%;
+    }
+    @media (max-width: 991px) {
+        height: 100%;
+    }
+}
+
+.second-section ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .second-section ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.arabic-body .form-section ul {
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.arabic-body .form-section label {
+    padding-left: 20px;
+    text-align: right;
+}
+
+.arabic-body .first-section::before {
+    left: auto;
+    right: 0;
+}
+
+.arabic-body .second-section::before {
+    left: auto;
+    right: 0;
+}
+
+.arabic-body .form-section .form-control.custom-drop {
+    background-position: calc(100% - 95%);
+    padding-left: 45px;
+    padding-right: 15px;
+}
+
+.devClassName {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.devClassName .loaderClassName {
+    font-size: 5em;
+    color: #ffc206;
+}
+
+.otp-successfull-txt {
+    color: #53bb46;
+    font-size: 1rem;
+    font-style: italic;
+    // margin-top: 10px;
+    // margin-bottom: 40px;
+}
+
+.invalid-otp-txt {
+    color: #f52e2e;
+    font-size: 1.125em;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.invalid-username-txt {
+    color: #ff4d4f;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+}
+
+.password-weak {
+    color: #ff4d4f;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+}
+
+.password-medium {
+    color: #fad35e;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+}
+
+.password-strong {
+    color: #53bb46;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+}
+
+.otpWrapper {
+    .form-control {
+        padding-right: 85px !important;
+    }
+}
+
+.arabic-body {
+    .otpWrapper {
+        .form-control {
+            padding-right: 210px !important;
+        }
+    }
+    .passwordWrapper {
+        .form-control {
+            padding-right: 50px !important;
+        }
+    }
+}
+
+.disableButton {
+    background-color: #b5b5b5;
+    cursor: default;
+    opacity: 0.5;
+}
+
+.checkboxIconContainer {
+    display: flex;
+    flex: 1;
+    background-color: $nav-bg;
+    align-self: stretch;
+}
+.box-hint {
+    p {
+        font-size: 12px ; 
+      img {
+        width: 16px;
+      }
+    }
+}

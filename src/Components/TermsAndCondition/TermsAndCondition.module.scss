@@ -1,0 +1,142 @@
+@import "../../../public/static/css/variable.scss";
+
+.termsAndConditionContainer {
+    input[type="text"].formControl {
+        display: flex;
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 1.188em;
+        line-height: 1.5;
+        color: #000;
+        background-color: #f2efea;
+        background-clip: padding-box;
+        border: 1px solid #f2efea;
+        border-radius: 30px;
+        height: 60px;
+        font-weight: 500;
+    }
+
+    .formControl,
+    input[type="text"].formControl {
+        display: flex;
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 1.188em;
+        line-height: 1.5;
+        color: #000;
+        background-color: #f2efea;
+        background-clip: padding-box;
+        border: 1px solid #f2efea;
+        border-radius: 30px;
+        height: 60px;
+        font-weight: 500;
+    }
+
+    .formControl:focus,
+    input[type="text"].formControl:focus {
+        border-color: rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .formControl::-webkit-input-placeholder {
+        color: #495057;
+        opacity: 1;
+    }
+
+    .formControl::-moz-placeholder {
+        color: #495057;
+        opacity: 1;
+    }
+
+    .formControl:-ms-input-placeholder {
+        color: #495057;
+        opacity: 1;
+    }
+
+    .formControl::-ms-input-placeholder {
+        color: #495057;
+        opacity: 1;
+    }
+
+    .formControl::placeholder {
+        color: #495057;
+        opacity: 1;
+    }
+
+    .customDrop {
+        padding: 15px 20px;
+    }
+
+    .buttonColEnd {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1.5em;
+    }
+
+    .customBtn {
+        height: 40px;
+        border: none;
+        padding: 5px 20px;
+        max-width: 130px;
+        width: 100%;
+
+        @media (max-width: 767px) {
+            font-size: $font-size-18;
+            max-width: 100px;
+        }
+    }
+
+    .blackBtn {
+        background-color: $black;
+        color: $white;
+        margin-right: 1em;
+    }
+
+    .yellowBtn {
+        color: $black;
+        background-color: $nav-bg;
+        font-weight: 700;
+
+        &:hover {
+            text-decoration: none;
+            background-color: #000;
+            color: #fff;
+            border-color: #000;
+        }
+    }
+    .smallLoader {
+        color: #000000;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        cursor: default;
+    }
+    .checkboxContainer {
+        display: flex;
+        align-items: center;
+        .checkboxIconContainer {
+            display: flex;
+            flex: 1;
+            background-color: $nav-bg;
+            align-self: stretch;
+        }
+    }
+    .checkboxLabelText {
+        margin-left: 10px;
+    }
+}
+
+.arabic-body .termsAndConditionContainer {
+    text-align: right;
+}
+
+.arabic-body .checkboxLabelText {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.disable {
+    opacity: 0.6;
+}

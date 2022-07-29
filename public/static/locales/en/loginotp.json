@@ -1,0 +1,8 @@
+{
+    "PleaseEntertheOTP":"Please Enter the OTP",
+    "PleaseEntertheOTPtoVerifyYourAccount":"Please enter the OTP to verify your account.",
+    "Username":"Username",
+    "NotReceivedYourCode?":"Not received your code?",
+    "ResendCode":"Resend Code",
+    "YOUR_OTP_WILL_EXPIRE_IN_60_SECONDS": "(Your OTP will expire in {{otpValidTime}})"
+}

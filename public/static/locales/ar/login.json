@@ -1,0 +1,17 @@
+{
+    "ALREADY_HAVE_AN_ACCOUNT": "هل لديك حساب مسبقاً؟",
+    "LOGIN_TO_RETRIEVE_YOUR_ACCOUNT_SETTINGS": "التسجيل للدخول لاستعادة إعدادات حسابك",
+    "PASSWORD": "كلمة سر*",
+    "ENTER_EMAIL_PHONE_NUMBER": "عنوان البريد الالكتروني/رقم جوال مسجل*",
+    "FORGOT_PASSWORD": "هل نسيت كلمة السر؟",
+    "LOGIN": "تسجيل الدخول",
+    "OR": "أو",
+    "REQUEST_OTP": "طلب كلمة سر صالحة لمرة واحدة",
+    "DO_NOT_HAVE_AN_ACCOUNT": "ليس لديك حساب",
+    "REGISTER_HERE": "سجل هنا",
+    "USERNAME_REQUIRED_FOR_FORGOT": "يلزم اسم المستخدم بالنسبة لكلمة السر المنسية ",
+    "LOGOUT": "Your session has expire due to inactivity, Please re-login to access.",
+    "CANCEL": "إلغاء",
+    "BACK_TO": "Back to",
+    "OK":"OK"
+  }

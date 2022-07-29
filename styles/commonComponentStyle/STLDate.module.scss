@@ -1,0 +1,13 @@
+.antInput {
+    border: 1px solid #7F7F7F !important;
+    background-color: transparent !important;
+}
+
+.antFillInput {
+    border: 1px solid #7F7F7F !important;
+    background-color: transparent !important;
+    &:focus{
+        border: 1px solid #7F7F7F !important;
+        background-color: transparent !important;
+    }
+}

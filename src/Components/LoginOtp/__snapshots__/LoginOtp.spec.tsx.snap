@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginOtp should match snapshot 1`] = `
+<div>
+  <h2
+    class="undefined"
+  />
+  <h3
+    class="undefined"
+  />
+  <form
+    action="#"
+    class="undefined"
+  >
+    <div
+      class="form-group"
+    >
+      <label>
+        loginotp:Username
+        *
+      </label>
+      <div>
+        <input
+          class="ant-input undefined undefined undefined"
+          name="username"
+          placeholder="loginotp:Username"
+          type="text"
+          value=""
+        />
+        <span
+          class="ant-typography ant-typography-danger undefined undefined"
+          data-testid="form-error"
+        />
+      </div>
+    </div>
+    <div
+      class="undefined"
+    >
+      <div>
+        <input
+          value=""
+        />
+        <input
+          value=""
+        />
+        <input
+          value=""
+        />
+        <input
+          value=""
+        />
+        <input
+          value=""
+        />
+        <input
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="undefined"
+    >
+      <p>
+        loginotp:NotReceivedYourCode?
+        <a
+          class="ml-1 mr-1"
+        >
+          loginotp:ResendCode
+        </a>
+      </p>
+    </div>
+    <div
+      class="text-center mb-4"
+    >
+      <button
+        class="undefined undefined"
+        type="submit"
+      >
+        Verify
+         
+      </button>
+    </div>
+  </form>
+</div>
+`;

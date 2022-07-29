@@ -1,0 +1,13 @@
+{
+  "SUPPORT_TICKET" : "قسيمة الدعم",
+  "LAST_TICKET":"آخر قسيمة",
+  "STATUS":"الحالة – الوضع – الموقف",
+  "HAPPY_TO_HELP":"يسعدنا خدمتكم",
+  "CREATE_TICKET":"انشاء بطاقة",
+  "FROM_DATE":"من تاريخ",
+  "TO_DATE":"لغاية تاريخ ",
+  "APPLY":"تطبيق",
+  "TICKET_ID":"أداة تعريف القسيمة",
+  "SUBJECT":"الموضوع",
+  "CREATION_DATE":"تاريخ الإنشاء"
+}

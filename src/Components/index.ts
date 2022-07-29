@@ -1,0 +1,30 @@
+/* eslint-disable import/prefer-default-export */
+export { default as BillingAccount } from "@Components/BillingAccount";
+export { default as CartModal } from "@Components/CartModal";
+export { default as CustomerRegisterCheckout } from "@Components/CustomerRegisterCheckout";
+export { default as Layout } from "@Components/Layout";
+export { default as Login } from "@Components/Login";
+export { default as LoginOtp } from "@Components/LoginOtp";
+export { default as OrderSummery } from "@Components/OrderSummery";
+export { default as PaymentAndPlaceOrder } from "@Components/PaymentAndPlaceOrder";
+export { default as Plan } from "@Components/Plan";
+export { default as Product } from "@Components/Product";
+export { default as Registration } from "@Components/Register";
+export { default as TermsAndCondition } from "@Components/TermsAndCondition";
+export { default as ThankYou } from "@Components/ThankYou";
+export { default as UploadDocumentCheckoutPage } from "@Components/UploadDocumentCheckout";
+export { default as NumberSelection } from "@Components/NumberSelection";
+export { default as ResetPasswordComponent } from "@Components/ResetPassword";
+export { default as GiftInput } from "@Components/GiftInput";
+export { default as GiftingList } from "@Components/GiftingList";
+export { default as MSISDNList } from "@Components/MSISDNList";
+
+export { default as BasicDetails } from "@Components/MyProfile/basicDetails";
+export { default as PersonalId } from "@Components/MyProfile/personalId";
+export { default as ContactDetails } from "@Components/MyProfile/contactDetails";
+export { default as CustomerAddress } from "@Components/MyProfile/customerAddress";
+export { default as BillingInformation } from "@Components/MyProfile/billingInformation";
+export { default as BillAddress } from "@Components/MyProfile/billAddress";
+export { default as DocumentDetails } from "@Components/MyProfile/documentDetails";
+export { default as EShopUploadDocumentCheckoutPage } from "@Components/E-shop-upload-doc";
+export { default as B2BUploadDocumentCheckoutPage } from "@Components/B2b-upload-doc";

@@ -1,0 +1,135 @@
+@import "../../../public/static/css/variable.scss";
+.thank-banner {
+    position: relative;
+    height: 550px;
+    @media(max-width:575px) {
+        height: 350px;
+    }
+    > img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        object-position: center;
+    }
+}
+
+.banner-txt {
+    position: absolute;
+    left: 10%;
+    top: 0;
+    max-width: 600px;
+    text-align: center;
+    padding-top: 130px;
+    width: 80%;
+    @media(max-width:575px) {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-txt {
+        max-width: 100%;
+    }
+}
+
+.banner-txt h2 {
+    font-size: $font-size-70;
+    color: $white;
+    font-weight: $Bold;
+    letter-spacing: 0px;
+}
+
+@media (max-width: 575px) {
+    .banner-txt h2 {
+        font-size: $font-size-40;
+    }
+}
+
+.banner-txt p {
+    font-size: $font-size-20;
+    color: $black;
+    margin-top: 20px;
+    font-weight: $Bold;
+}
+
+@media (max-width: 767px) {
+    .banner-txt p {
+        font-size: $font-size-20;
+        text-align: center;
+    }
+}
+
+.banner-txt label {
+    font-size: $font-size-30;
+    color: $black;
+    letter-spacing: 11.65px;
+    line-height: normal;
+    margin-bottom: 20px;
+    font-weight: $Bold;
+}
+
+@media (max-width: 1024px) {
+    .banner-txt label {
+        font-size: $font-size-30;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-txt label {
+        font-size: $font-size-20;
+        text-align: center;
+    }
+}
+
+.banner-txt .card {
+    box-shadow: 0px 0px 10px #00000033;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: $white;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.banner-txt .card p {
+    letter-spacing: 0px;
+    font-size: $font-size-18;
+    font-weight: $Bold;
+    margin: 0;
+}
+
+.banner-txt .card p a {
+    color: $blue-color;
+}
+
+@media (max-width: 575px) {
+    .banner-txt .card p {
+        font-size: $font-size-18;
+    }
+}
+
+.orderNumber {
+    color: #FFC006 !important;
+}
+
+.orderNumber a {
+    color: #000 !important;
+}
+
+.paymentID {
+    color: #338BFF !important;
+}
+
+.paymentID a {
+    color: #000 !important;
+}
+
+.arabic-body .banner-txt {
+    left: auto;
+    right: 10%;
+}
+
+.arabic-body .thank-banner img {
+    transform: scaleX(-1);
+}

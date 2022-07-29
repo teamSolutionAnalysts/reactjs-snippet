@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login render Page should match snapshot 1`] = `
+<div>
+  <div>
+    <h2
+      class="undefined"
+    >
+      login:ALREADY_HAVE_AN_ACCOUNT
+    </h2>
+    <h3
+      class="undefined"
+    >
+      login:LOGIN_TO_RETRIEVE_YOUR_ACCOUNT_SETTINGS
+    </h3>
+    <form
+      action="#"
+    >
+      <div
+        class="form-group"
+      >
+        <div>
+          <div>
+            <label>
+              login:ENTER_EMAIL_PHONE_NUMBER
+            </label>
+          </div>
+          <input
+            class="ant-input undefined undefined undefined"
+            data-testid="username"
+            name="username"
+            placeholder="johnmartin@gmail.com"
+            type="text"
+            value=""
+          />
+          <span
+            class="ant-typography ant-typography-danger undefined undefined"
+            data-testid="form-error"
+          />
+        </div>
+        <div
+          class="undefined"
+        />
+      </div>
+      <div
+        class="undefined"
+      >
+        <div
+          class="form-group mb-0"
+        >
+          <div>
+            <div>
+              <label>
+                login:PASSWORD
+              </label>
+            </div>
+            <input
+              class="ant-input undefined undefined undefined"
+              data-testid="password"
+              name="password"
+              placeholder="***************************"
+              type="password"
+              value=""
+            />
+            <span
+              class="ant-typography ant-typography-danger undefined undefined"
+              data-testid="form-error"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="form-group"
+      >
+        <p
+          class="text-right"
+        >
+          <label
+            class="undefined"
+          >
+            login:FORGOT_PASSWORD
+          </label>
+        </p>
+      </div>
+      <div
+        class="text-center"
+      >
+        <button
+          class="undefined undefined"
+          data-testid="submit-login"
+          type="submit"
+        >
+          login:LOGIN
+        </button>
+      </div>
+    </form>
+    <div
+      class="undefined"
+      data-testid="login-error"
+    />
+  </div>
+</div>
+`;

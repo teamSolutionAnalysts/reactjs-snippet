@@ -1,0 +1,18 @@
+{
+    "ALREADY_HAVE_AN_ACCOUNT": "Already have an account?",
+    "LOGIN_TO_RETRIEVE_YOUR_ACCOUNT_SETTINGS": "Login in to retrieve your account setting",
+    "ENTER_EMAIL_PHONE_NUMBER": "Email/Registered Mobile No.*",
+    "PASSWORD": "Password*",
+    "FORGOT_PASSWORD": "Forgot Your Password ?",
+    "LOGIN": "Login",
+    "OR": "OR",
+    "REQUEST_OTP": "Request OTP",
+    "DO_NOT_HAVE_AN_ACCOUNT": "Don't have an account?",
+    "REGISTER_HERE": "Register Here",
+    "USERNAME_REQUIRED_FOR_FORGOT": "Username is required for forgot password",
+    "USERNAME_REQUIRED_FOR_REQUEST_OTP": "Username is required for Requesting OTP",
+    "LOGOUT": "Your session has expire due to inactivity, Please re-login to access.",
+    "CANCEL": "Cancel",
+    "BACK_TO": "Back to",
+    "OK":"OK"
+  }
